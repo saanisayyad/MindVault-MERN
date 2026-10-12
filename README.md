@@ -54,11 +54,10 @@ MindVault-MERN/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/saanisayyad/ThinkBoard-MERN.git
-cd ThinkBoard-MERN
+git clone https://github.com/saanisayyad/MindVault-MERN.git
+cd MindVault-MERN
 ```
 
-> The repository URL and folder name above remain unchanged until the GitHub repository itself is renamed.
 
 ### 2. Configure and run the backend
 
