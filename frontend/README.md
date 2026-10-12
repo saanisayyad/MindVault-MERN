@@ -1,12 +1,34 @@
-# React + Vite
+# MindVault — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The React + Vite frontend for **MindVault**, a full-stack note-taking application.
 
-Currently, two official plugins are available:
+## Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19 and Vite
+- React Router
+- Tailwind CSS 4
+- Axios for API requests
+- Lucide React icons
+- React Hot Toast notifications
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies and start the development server:
+
+```bash
+npm install
+npm run dev
+```
+
+To configure the backend API, create a `.env` file:
+
+```env
+VITE_API_URL=http://localhost:3000/api
+```
+
+Build and preview the production bundle:
+
+```bash
+npm run build
+npm run preview
+```
