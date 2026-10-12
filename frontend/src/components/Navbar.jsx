@@ -38,12 +38,12 @@ const Navbar = () => {
                 className="text-xl sm:text-2xl font-bold
                 tracking-tight text-white"
               >
-                Think<span
+                Mind<span
                   className="text-transparent bg-clip-text
                   bg-gradient-to-r from-cyan-400
                   via-blue-400 to-purple-500"
                 >
-                  Board
+                  Vault
                 </span>
               </h1>
 
