@@ -48,7 +48,7 @@ const Navbar = () => {
               </h1>
 
               <p className="hidden sm:block text-[10px] uppercase tracking-[0.2em] text-slate-600">
-                Capture your thoughts
+                Your thoughts. Your space. Your vault.
               </p>
             </div>
           </Link>
